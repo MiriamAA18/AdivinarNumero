@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina un número entre 0 y 100</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Adivina un número entre 0 y 100</h1>
+
+    <div id="container">
+        <button onclick="generarNumero()">Generar número aleatorio</button>
+        <br>
+        <input type="number" id="numeroAdivinado" placeholder="Ingresa tu número" min="0" max="100">
+        <br>
+        <button onclick="verificarNumero()">Verificar</button>
+        <p id="mensaje"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
